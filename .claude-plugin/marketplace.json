@@ -1,0 +1,31 @@
+{
+  "name": "agentes-claude-kit",
+  "owner": {
+    "name": "Igor Szot"
+  },
+  "metadata": {
+    "description": "Agentes consultores para o Claude Code: design, UX, segurança e homologação de apps."
+  },
+  "plugins": [
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Creative Studio: direção de criação, direção de arte, marca e social cards."
+    },
+    {
+      "name": "ux",
+      "source": "./plugins/ux",
+      "description": "UX/UI: navegação, uso no celular e revisão visual com acessibilidade."
+    },
+    {
+      "name": "seguranca",
+      "source": "./plugins/seguranca",
+      "description": "Segurança: liderança, banco (Postgres/Supabase), AppSec e testes de segurança."
+    },
+    {
+      "name": "homologacao",
+      "source": "./plugins/homologacao",
+      "description": "Homologação antes de publicar: segurança, exploratório, visual, desempenho, lojas e Android."
+    }
+  ]
+}

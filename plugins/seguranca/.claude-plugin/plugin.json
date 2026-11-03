@@ -1,0 +1,6 @@
+{
+  "name": "seguranca",
+  "version": "1.0.0",
+  "description": "Segurança: liderança, banco (Postgres/Supabase), AppSec e testes de segurança.",
+  "author": { "name": "Igor Szot" }
+}

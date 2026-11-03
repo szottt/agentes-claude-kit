@@ -1,0 +1,6 @@
+{
+  "name": "homologacao",
+  "version": "1.0.0",
+  "description": "Homologação antes de publicar: segurança, exploratório, visual, desempenho, lojas e Android.",
+  "author": { "name": "Igor Szot" }
+}
