@@ -1,0 +1,6 @@
+{
+  "name": "dados",
+  "version": "1.0.0",
+  "description": "Dados: definição de métricas confiáveis (com privacidade em amostra pequena) e engenharia de dados para estatísticas.",
+  "author": { "name": "Igor Szot" }
+}

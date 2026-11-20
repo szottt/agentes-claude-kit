@@ -4,7 +4,7 @@
     "name": "Igor Szot"
   },
   "metadata": {
-    "description": "Agentes consultores para o Claude Code: design, UX, segurança e homologação de apps."
+    "description": "Agentes consultores para o Claude Code: design, UX, segurança, dados e homologação de apps."
   },
   "plugins": [
     {
@@ -21,6 +21,11 @@
       "name": "seguranca",
       "source": "./plugins/seguranca",
       "description": "Segurança: liderança, banco (Postgres/Supabase), AppSec e testes de segurança."
+    },
+    {
+      "name": "dados",
+      "source": "./plugins/dados",
+      "description": "Dados: métricas confiáveis com privacidade em amostra pequena e engenharia de dados para estatísticas."
     },
     {
       "name": "homologacao",

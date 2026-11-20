@@ -1,6 +1,6 @@
 # Agentes para o Claude Code
 
-Este kit é a versão genérica dos agentes que uso no meu app. São 17 especialistas em quatro times. Os de design,
+Este kit é a versão genérica dos agentes que uso no meu app. São 19 especialistas em cinco times. Os de design,
 UX e segurança **só leem e opinam**; os de homologação rodam verificações no ambiente local. Quem implementa é
 sempre o Claude principal, que junta as respostas.
 
@@ -28,6 +28,12 @@ sempre o Claude principal, que junta as respostas.
 | `database-security` | Banco: RLS, grants, funções, `security definer`, SQL Injection, isolamento entre usuários. Escrito para Postgres/Supabase. |
 | `appsec` | Front: XSS, login, sessão, admin, cabeçalhos, armazenamento local, segredos expostos. |
 | `security-testing` | Acha lacunas nos testes de segurança e desenha cenários negativos. |
+
+### 📊 Dados
+| Agente | Papel |
+|---|---|
+| `analytics-architect` | Entra **antes** de qualquer indicador ou gráfico: fórmula, fonte, janela, fuso, um número por conceito e regra de baixa amostragem (k). |
+| `data-engineer` | Consulta pesada, agregação diária, índices, retenção, cache e qualidade de dados (horário do aparelho, sincronização, histórico editado). |
 
 ### ✅ Homologação (antes de publicar)
 | Agente | Papel |
